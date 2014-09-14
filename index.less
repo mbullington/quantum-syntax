@@ -10,7 +10,11 @@
   color: @syntax-text-color;
 
   .wrap-guide {
-    background-color: @syntax-wrap-guide-color;
+    background-color: @syntax-gutter-background-color-selected;
+  }
+
+  .line.cursor-line {
+    background-color: @syntax-gutter-background-color-selected;
   }
 
   .indent-guide {
@@ -23,7 +27,6 @@
 
   .gutter {
     background-color: @syntax-gutter-background-color;
-    border-right: 2px solid @syntax-gutter-background-color-selected;
     color: @syntax-gutter-text-color;
 
     .line-number {
@@ -43,10 +46,6 @@
   .gutter .line-number:after,
   .fold-marker:after {
     color: @light-gray;
-  }
-
-  .scroll-view {
-    padding-left: 10px;
   }
 
   .invisible {
