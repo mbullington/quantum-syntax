@@ -1,6 +1,6 @@
 # Quantum UI Syntax Theme
 
-<img src="https://dl.dropboxusercontent.com/u/27056280/Atom_theme.png" />
+<img src="https://dl.dropboxusercontent.com/u/27056280/Screenshot%202015-01-18%2013.49.34.png" />
 
 Syntax theme for Atom using the ever popular [base16][base16] tomorrow dark colors. Pair it with the [Quantum UI Theme](https://github.com/mbullington/quantum-ui)**.
 
