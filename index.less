@@ -1,11 +1,6 @@
 @import "syntax-variables";
 
-.editor-colors {
-  background-color: @syntax-background-color;
-  color: @syntax-text-color;
-}
-
-.editor {
+.atom-text-editor, :host {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
 
@@ -318,6 +313,6 @@
   }
 }
 
-.editor.mini .scroll-view {
+.atom-text-editor[mini] .scroll-view {
   padding-left: 1px;
 }
